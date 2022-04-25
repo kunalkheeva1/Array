@@ -15,7 +15,7 @@ public class Array {
     kk[2]= new Kunal("Kheeva",23);
 
     for(int i=0; i<kk.length; i++){
-            System.out.println("Name and Roll number of the candidate is: "+kk[i].name + " "+kk[i].rollno );
+            System.out.println("Name and Roll number of the candidate is: "+kk[i].name + ", "+kk[i].rollno );
         }
     }
 }
