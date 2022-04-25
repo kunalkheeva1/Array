@@ -9,7 +9,8 @@ class Kunal{
 }
 public class Array {
     public static void main(String[] args) {
-    Kunal [] kk= new Kunal[5];
+    Kunal [] kk;
+    kk= new Kunal[3];
     kk[0]= new Kunal("Kunal",21);
     kk[1]= new Kunal("Navreet",22);
     kk[2]= new Kunal("Kheeva",23);
