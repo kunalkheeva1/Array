@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 class Kunal{
     String name; int rollno;
     Kunal(String name, int rollno){
@@ -11,7 +13,9 @@ public class Array {
     kk[0]= new Kunal("Kunal",21);
     kk[1]= new Kunal("Navreet",22);
     kk[2]= new Kunal("Kheeva",23);
-        System.out.println(kk);
+        for(int i=0; i<=kk.length; i++){
+            System.out.println(kk[i]);
+        }
     }
 }
 
