@@ -1,11 +1,17 @@
+import java.util.Scanner;
 public class Array {
-    public static int[] m1(){
-        return new int[]{1,3,234,324};
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        int input= scanner.nextInt();
+    int []kk = new int[input];
+
+    for(int i=0; i<input; i++){
+        kk[i]=scanner.nextInt();
     }
-    public static void main(String[] args){
-    int []arr = m1();
-    for(int i=0; i<arr.length; i++){
-        System.out.print(arr[i]+ " ");
+    for(int i=0; i<input; i++){
+        System.out.println(kk[i]);
     }
+
     }
+
 }
