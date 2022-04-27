@@ -8,9 +8,13 @@ public class Array {
     for(int i=0; i<input; i++){
         kk[i]=scanner.nextInt();
     }
-    for(int i=0; i<input; i++){
-        System.out.println(kk[i]);
+    int nn= scanner.nextInt();
+    for(int i=0; i<kk.length; i++){
+        if(kk[i]==nn){
+            System.out.println("I found at: "+ i);
+        }
+    }
+
     }
     }
 
-}
