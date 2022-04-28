@@ -24,6 +24,5 @@ public class Array {
             }
             System.out.println();
         }
-        System.out.println("Thank you for using our software!!");
     }
 }
