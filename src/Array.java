@@ -12,6 +12,7 @@ public class Array {
     for(int i=0; i<kk.length; i++){
         if(kk[i]==nn){
             System.out.println("I found at: "+ i);
+
         }
     }
 
